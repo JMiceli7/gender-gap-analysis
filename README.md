@@ -5,6 +5,17 @@ This project presents a visual analysis of the gender pay gap across different p
 
 ## Graphs and Analysis
 
+**Gender Pay Across Industries(Top 10)**
+This visualization highlights significant gender pay disparities across different industries, with some sectors showing more pronounced gaps than others. ![Gender Pay Across Industries](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/male_to_female_salary_ratio.png)
+
+**Gender Pay Across Industries**
+This visualization highlights income inequality across industries, showing not only the pay gap but also how significant it is within various sectors.
+! [Gender Pay Across Industries interactive plot version](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/interactive_plot.html),! [Gender Pay Across Industries png version](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/Gender%20Pay%20by%20Industry%20dot%20plot.png)
+
+**Gender Pay Across Region & Race** 
+This heatmap provides a clear visual comparison of how income varies by race and region, highlighting disparities and patterns in economic outcomes across different demographic groups. ![Gender Pay Across Region & Race](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/mean_income_by_region_and_race.png)
+
+
  **Gender Pay Gap Over Time (1981-2013)**  
    This graph illustrates the historical changes in the gender pay gap over the period from 1981 to 2013. It shows how the gap between male and female salaries has fluctuated, with notable periods of improvement and plateaus. The most significant reduction in the gap occurred between 2009 and 2011, but disparities still remain.
 ![Gender Pay Gap Over Time](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Images/pay_gap_over_time.png)
