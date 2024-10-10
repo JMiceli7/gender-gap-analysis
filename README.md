@@ -39,10 +39,14 @@ This heatmap provides a clear visual comparison of how income varies by race and
    
    The first iteration of the model utiulized multiple input features: year, state name, race, age, union type, marital status, and sex. To build the mode, average income was computed as grouped by the previously named features. The data was pivoted to generate separate average incomes for male and female while still grouped by the input features. This let us create a column listed "pay_gap" and we were able to compute the pay gap between each set of male/female salaries in our reshaped data set. 
    
-   One-hot-encoding was then used on the categorial features of state name, race, union type, and marital status. The data was then ready for spliting and training. The target vector, "pay_gap" was separated from the remaining columns used for features. 
+   One-hot-encoding was then used on the categorial features of state name, race, union type, and marital status. The data was then ready for spliting and training. 
    
 ![One-Hot_Encoding](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/one_hot_encoding.png)
-   
+
+   The target vector, "pay_gap" was separated from the remaining columns used for features.    
+
+![Separating_features_target_vector](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/separated_features_target_vector.png)
+
    Standard scaler was used to ensure the data could be within the same scale and easily comparable. 
    
 ![Standard Scaler](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/standard_scaler.png)
