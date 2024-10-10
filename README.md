@@ -10,7 +10,7 @@ This visualization highlights significant gender pay disparities across differen
 
 **Gender Pay Across Industries**
 This visualization highlights income inequality across industries, showing not only the pay gap but also how significant it is within various sectors.
-! [Gender Pay Across Industries interactive plot version](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/interactive_plot.html),! [Gender Pay Across Industries png version](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/Gender%20Pay%20by%20Industry%20dot%20plot.png)
+! [Gender Pay Across Industries interactive plot version](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/interactive_plot.html)! [Gender Pay Across Industries png version](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/Gender%20Pay%20by%20Industry%20dot%20plot.png)
 
 **Gender Pay Across Region & Race** 
 This heatmap provides a clear visual comparison of how income varies by race and region, highlighting disparities and patterns in economic outcomes across different demographic groups. ![Gender Pay Across Region & Race](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/mean_income_by_region_and_race.png)
