@@ -33,14 +33,15 @@ This heatmap provides a clear visual comparison of how income varies by race and
    This graph presents the average wages for men in male-dominated occupations like management, construction, and sales. It demonstrates that men tend to dominate higher-paying roles, contributing to the overall wage disparity.
    ![Average Wage by Occupation (Top Occupation for Men](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/men_occ.png)
 
-**Machine Learning Application**
+**Machine Learning Application: Randomforest Regressor Model**
+
    A random forest regressor model was used in an attempt to build a model capable of predicting the pay gap between male and female salaries given a set of input features. Randomforest regressor was chosen for multiple reasons: a regression model was better suited the needs of this project compared to a classifier model, as we were looking to make predicitons for a continuous variable, not to make predictions of the placement of a sample into one or another classes. Randomforest also had advantages to other regression models. Linear regressions are sensitive to outliers in the data set and decision tree modeling can lead to overfitting. 
    
    The first iteration of the model utiulized multiple input features: year, state name, race, age, union type, marital status, and sex. To build the mode, average income was computed as grouped by the previously named features. The data was pivoted to generate separate average incomes for male and female while still grouped by the input features. This let us create a column listed "pay_gap" and we were able to compute the pay gap between each set of male/female salaries in our reshaped data set. One-hot-encoding was then used on the categorial features of state name, race, union type, and marital status. The data was then ready for spliting and training. The target vector, "pay_gap" was separated from the remaining columns used for features. Standard scaler was used to ensure the data could be within the same scale and easily comparable. Train, test, split method was used to create a training and test data set and we were then ready to initialize the randomforest regression model. Our evaluation report revealed a high accuracy at R-Squared = 0.8644 but a Mean Squared Error (MSE) of 8817.27, much room for improvement.
 
    To improve the accuracy and performance of the model, the previous process was completed again, this time with a reduced number of features. To determine which features were most valuable from the first model, a feature importance method was used.
    
-![Top 10 Feature Importance Analysis](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/Regression%20Model%20top%2010%20features.png))
+![Top 10 Feature Importance Analysis](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/Regression%20Model%20top%2010%20features.png)
    
    We found that there were mainly 3 variables that seemed to have the biggest influence on the model: year, age, and sex (male and female). With this inforamtion, the model was remade with the fewer features. This had a substancial improvement on the performance of our model. We achieved an R-Squared value of 0.9235 and a MSE of only 8.088. We now have a model that can accuarately predict the pay gap for this given set of input features.
 
