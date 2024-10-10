@@ -55,7 +55,7 @@ This heatmap provides a clear visual comparison of how income varies by race and
 
 ![Train_Test_Split](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/train_test_split.png)
    
-   The randomforest regression model was then initiated. Our evaluation report revealed a high accuracy at R-Squared = 0.8644 but a Mean Squared Error (MSE) of 8817.27.
+   The randomforest regression model was then initiated. Our evaluation report revealed a high accuracy at R-Squared = 0.8439 but a Mean Squared Error (MSE) of 10150.0645.
 
 ![Initialize RandomForest Model](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/randomforest_regressor_model_initialization.png)
 
@@ -65,7 +65,7 @@ This heatmap provides a clear visual comparison of how income varies by race and
    
 ![Top 10 Feature Importance Analysis](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/Regression%20Model%20top%2010%20features.png)
    
-   We found that there were mainly 3 variables that seemed to have the biggest influence on the model: year, age, and sex (male and female). With this inforamtion, the model was remade with the fewer features. This had a substancial improvement on the performance of our model. We achieved an R-Squared value of 0.9235 and a MSE of only 8.088. We now have a model that can accuarately predict the pay gap for this given set of input features.
+   We found that there were mainly 3 variables that seemed to have the biggest influence on the model: year, age, and sex (male and female). With this inforamtion, the model was remade with the fewer features. This had a substancial improvement on the performance of our model. We achieved an R-Squared value of 0.92405 and a MSE of only 8.0346. We now have a model that can accuarately predict the pay gap for this given set of input features.
 
 ![Final Model Iteration Results](https://github.com/JMiceli7/gender-gap-analysis/blob/main/Project%204%20Graphics/improved_model_results.png)
 
